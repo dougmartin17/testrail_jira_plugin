@@ -1,0 +1,26 @@
+{
+     "name": "Doug Hello World",
+     "description": "Doug Atlassian Connect app",
+     "key": "com.patientping.dougplugin",
+     "baseUrl": "https://<placeholder-url>",
+     "vendor": {
+         "name": "Doug Martin",
+         "url": "http://www.patientping.com"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 1,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/helloworld.html",
+                 "key": "hello-world",
+                 "location": "system.top.navigation.bar",
+                 "name": {
+                     "value": "Greeting"
+                 }
+             }
+         ]
+     }
+ }
